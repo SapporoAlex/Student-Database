@@ -23,7 +23,6 @@ cursor.execute('''
     )
 ''')
 
-
 with open('School Grades.txt', 'r') as file:
     for line in file:
         data = line.split()
@@ -36,9 +35,6 @@ with open('School Grades.txt', 'r') as file:
 
         cursor.execute('INSERT INTO Grades VALUES (?, ?, ?)', grade_data)
 
-
-
 # Commit the changes and close the connection
 conn.commit()
 conn.close()
-
