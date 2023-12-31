@@ -47,6 +47,7 @@ student_id name year_level subject grade
 For example:
 
 1 John Doe 10 Math 90
+
 2 Jane Smith 11 Science 85
 
 ## Notes
